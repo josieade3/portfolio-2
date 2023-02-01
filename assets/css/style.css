@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body {
+    font-family: "Barlow Condensed", sans-serif;
+  }
+
+  /*main elements*/
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+  /*header and footer*/
+
+  header {
+    text-align: center;
+    height: 50px;
+  }
+
+
+
+  /*game area*/
+  .game-area {
+  
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  text-align: center;
+
+  }
+
+  .control {
+    display: inline-block;
+    margin: 2px;
+    width: 80px;
+
+  }
+
+  #messages {
+    height: 20px;
+  }
+
+  .player {
+    background-color: lightsalmon;
+    float: left;
+    width: 45%;
+  }
+
+  #player-image {
+    width: 75%;
+  }
+
+  .computer {
+    background-color: lightskyblue;
+    float: right;
+    width: 45%
+  }
+
+  #computer-image {
+    width: 75%;
+  }
+
+  
+
+
+  
